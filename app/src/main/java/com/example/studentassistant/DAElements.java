@@ -29,18 +29,6 @@ public class DAElements {
         return null;
     }
 
-    public Elements getElementByAtomicNum(String atomicNum) {
-        Elements element = null;
-
-        for(Elements e : elements) {
-            if(e.getAtomicNum().equals(atomicNum)) {
-                element = e;
-            }
-        }
-
-        return element;
-    }
-
     public ArrayList<String> getElementsName() {
         ArrayList<String> names = new ArrayList<>();
 
